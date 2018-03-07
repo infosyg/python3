@@ -20,6 +20,7 @@ print(UFO)
 UFO.remove(too_fin)
 print("This UFO " + too_fin +" is too low.")
 
+
 #sampl 移除不能参加的，并打印不能参加和能参加的最终名单
 invite_people = ['ryan','xiaoxiao','chun','pin']
 print("Have dinner togather list " + str(invite_people).upper() + ".")
