@@ -1,8 +1,8 @@
 aliens = []
 #创建30个外星人
 for alien_number in range(30):
-    new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
-    aliens.append(new_alien)
+    new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'} 
+    aliens.append(new_alien)#加入一个新的外星人
 
 for alien in aliens[0:3]:
     if alien['color'] == 'green':
